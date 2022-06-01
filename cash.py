@@ -1,5 +1,3 @@
-import numpy
-
 def step_1(change, coins, count):
     if isinstance(change, float) : raise TypeError
     return step_2(change, coins, count)
@@ -29,4 +27,8 @@ def step_7(change, coins, count):
     return step_4(change, coins, count)
 
 def number_of_coins(change, coins):
+<<<<<<< HEAD
     return step_1(change, coins, 0)
+=======
+    return step_1(change, coins, 0)
+>>>>>>> fd31298d0416417f2b5de817fd1d16b04e9ce559
