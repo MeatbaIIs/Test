@@ -7,7 +7,7 @@ This program rotates a matrix
 class NonSquareMatrixError(Exception):
     pass
 
-def rotate(matrix:list[list[int]]):
+def rotate(matrix):
     for row in matrix:
         if not row:
             return [[]]
@@ -22,7 +22,7 @@ def rotate(matrix:list[list[int]]):
 
     return new_matrix
 
-def print_matrix(matrix:list[list[int]]):
+def print_matrix(matrix):
     for row in matrix:
         print(row)
     print()
