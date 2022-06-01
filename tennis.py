@@ -1,4 +1,4 @@
-def guess(word: str, previous_words: list[str], time: float) -> bool:
+def guess(word, previous_words, time):
     if time < 0 or not word:
         raise ValueError
 
